@@ -114,7 +114,31 @@ Telemetry collection disabled
 
 D:\programteszt\prog-teacher\ang-basic-practice005-comp-shock\ang-basic-practice005-comp-shock>ng g common/icon
 'ng' is not recognized as an internal or external command,
-operable program or batch file. -->
+operable program or batch file. 
+
+töröltem a nodejs-t majd újra telepítettem az sem oldotta meg, azután a vs code -ot is töröltem újra telepítettem, újra raktam a typescriptet, az angulart, és most ez a hiba
+
+
+D:\programteszt\prog-teacher\ang-basic-practice005-comp-shock\ang-basic-practice005-comp-shock>ng g c common/icon
+internal/modules/cjs/loader.js:311
+      throw err;
+      ^
+
+Error: Cannot find module 'C:\Users\pin.janos\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\symbol-observable\lib\index.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (internal/modules/cjs/loader.js:303:19)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:516:18)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:867:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\pin.janos\AppData\Roaming\npm\node_modules\@angular\cli\lib\init.js:10:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32) {
+  code: 'MODULE_NOT_FOUND',
+  path: 'C:\\Users\\pin.janos\\AppData\\Roaming\\npm\\node_modules\\@angular\\cli\\node_modules\\symbol-observable\\package.json',
+  requestPath: 'symbol-observable'
+}-->
 
 
 
